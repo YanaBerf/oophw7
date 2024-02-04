@@ -1,0 +1,17 @@
++ равно: 5.0 + 8.0i
+* равно: -11.0 + 17.0i
+/ равно: 0.4634146341463415 + 0.17073170731707318i
+java.nio.file.NoSuchFileException: src\homework07\calculator_log.txt.lck
+        at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+        at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+        at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+        at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:119)
+        at java.base/java.nio.channels.FileChannel.open(FileChannel.java:309)
+        at java.base/java.nio.channels.FileChannel.open(FileChannel.java:369)
+        at java.logging/java.util.logging.FileHandler.openFiles(FileHandler.java:512)
+        at java.logging/java.util.logging.FileHandler.<init>(FileHandler.java:342)
+        at FileLogger.<clinit>(FileLogger.java:12)
+        at CalculatorController.calculate(CalculatorController.java:28)
+        at Main.main(Main.java:12)
+февр. 04, 2024 1:58:08 PM FileLogger log
+WARNING: Нет такой операции
